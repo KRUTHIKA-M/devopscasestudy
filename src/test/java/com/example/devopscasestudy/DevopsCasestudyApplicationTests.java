@@ -46,7 +46,7 @@ when(productRepository.findAll()).thenReturn(products);
 List<Product> result = productapi.findAll().getBody();
 
 // then
-assertThat(result.size()).isEqualTo(2);
+assertThat(result.size()).isEqualTo(1);
 
 // assertThat(result.get(0).getFirstName())
 // .isEqualTo(employee1.getFirstName());
