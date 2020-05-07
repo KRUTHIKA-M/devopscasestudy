@@ -36,7 +36,13 @@ public class ProductApi {
         return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
     }
     
+    @GetMapping("/products/find/{name}")
+    public ResponseEntity<List<Product>> findByName(@PathVariable("name") String name){
+        List<Product> products=productRepository.findByProductNameIgnoreCase(name);
+        return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
+    }
     
+    //this is a string//
     
     //app.post('/products',(req,res)=>)
     @PostMapping("/products")
