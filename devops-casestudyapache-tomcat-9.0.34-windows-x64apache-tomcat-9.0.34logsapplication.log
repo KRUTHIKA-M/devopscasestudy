@@ -733,3 +733,59 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2020-05-11 22:07:35.679 [INFO ] [Thread-34] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-05-11 22:07:35.680 [INFO ] [Thread-34] c.z.h.HikariDataSource - HikariPool-6 - Shutdown initiated...
 2020-05-11 22:07:35.692 [INFO ] [Thread-34] c.z.h.HikariDataSource - HikariPool-6 - Shutdown completed.
+2020-05-11 22:10:01.415 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - Starting DevopsCasestudyApplication on DESKTOP-2QO5679 with PID 19820 (C:\devops1\java\devopscasestudy\target\classes started by KruthikaM in C:\devops1\java\devopscasestudy)
+2020-05-11 22:10:01.415 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - No active profile set, falling back to default profiles: default
+2020-05-11 22:10:01.806 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 22:10:01.808 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-05-11 22:10:02.217 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2020-05-11 22:10:02.222 [INFO ] [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-05-11 22:10:02.223 [INFO ] [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 22:10:02.313 [INFO ] [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 22:10:02.313 [DEBUG] [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-05-11 22:10:02.313 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 895 ms
+2020-05-11 22:10:02.414 [INFO ] [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 22:10:02.437 [INFO ] [restartedMain] c.z.h.HikariDataSource - HikariPool-7 - Starting...
+2020-05-11 22:10:02.451 [INFO ] [restartedMain] c.z.h.HikariDataSource - HikariPool-7 - Start completed.
+2020-05-11 22:10:02.451 [INFO ] [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 22:10:02.748 [INFO ] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 22:10:02.749 [INFO ] [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 22:10:02.766 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-11 22:10:02.807 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 22:10:02.968 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 22:10:02.975 [DEBUG] [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-05-11 22:10:02.989 [DEBUG] [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2020-05-11 22:10:03.014 [DEBUG] [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-05-11 22:10:03.030 [DEBUG] [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-05-11 22:10:03.208 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2020-05-11 22:10:03.209 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - Started DevopsCasestudyApplication in 1.864 seconds (JVM running for 10042.159)
+2020-05-11 22:10:03.231 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-11 22:12:25.614 [INFO ] [Thread-39] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 22:12:25.615 [INFO ] [Thread-39] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 22:12:25.616 [INFO ] [Thread-39] c.z.h.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2020-05-11 22:12:25.627 [INFO ] [Thread-39] c.z.h.HikariDataSource - HikariPool-7 - Shutdown completed.
+2020-05-11 22:12:26.442 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - Starting DevopsCasestudyApplication on DESKTOP-2QO5679 with PID 19820 (C:\devops1\java\devopscasestudy\target\classes started by KruthikaM in C:\devops1\java\devopscasestudy)
+2020-05-11 22:12:26.445 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - No active profile set, falling back to default profiles: default
+2020-05-11 22:12:26.804 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 22:12:26.818 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+2020-05-11 22:12:27.057 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2020-05-11 22:12:27.059 [INFO ] [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-05-11 22:12:27.059 [INFO ] [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 22:12:27.175 [INFO ] [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 22:12:27.176 [DEBUG] [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-05-11 22:12:27.176 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 729 ms
+2020-05-11 22:12:27.290 [INFO ] [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 22:12:27.313 [INFO ] [restartedMain] c.z.h.HikariDataSource - HikariPool-8 - Starting...
+2020-05-11 22:12:27.332 [INFO ] [restartedMain] c.z.h.HikariDataSource - HikariPool-8 - Start completed.
+2020-05-11 22:12:27.333 [INFO ] [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 22:12:27.696 [INFO ] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 22:12:27.696 [INFO ] [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 22:12:27.721 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-11 22:12:27.872 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 22:12:27.940 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 22:12:27.948 [DEBUG] [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-05-11 22:12:27.965 [DEBUG] [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2020-05-11 22:12:28.009 [DEBUG] [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-05-11 22:12:28.021 [DEBUG] [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-05-11 22:12:28.089 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2020-05-11 22:12:28.091 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - Started DevopsCasestudyApplication in 1.697 seconds (JVM running for 10187.04)
+2020-05-11 22:12:28.093 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
