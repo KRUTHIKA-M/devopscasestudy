@@ -23,14 +23,10 @@ public class ProductApi {
 private final Logger logger = LoggerFactory.getLogger(getClass());
 
 // @Autowired
-// private ProductRepository productRepository;
-//
-
+// private ProductRepository productRepository;//
 
 @Autowired
 private ProductFacade productFacade;
-
-
 
 @GetMapping("/products")
 public ResponseEntity<List<ProductDTO>> findAll(){
