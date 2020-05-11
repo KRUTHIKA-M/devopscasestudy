@@ -22,9 +22,6 @@ public class ProductApi {
 
 private final Logger logger = LoggerFactory.getLogger(getClass());
 
-// @Autowired
-//private ProductRepository productRepository;
-
 @Autowired
 private ProductFacade productFacade;
 
