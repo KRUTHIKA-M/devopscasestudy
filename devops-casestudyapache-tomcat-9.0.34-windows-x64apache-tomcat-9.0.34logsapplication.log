@@ -60,3 +60,7 @@
 2020-05-12 11:24:12.006 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
 2020-05-12 11:24:12.008 [INFO ] [restartedMain] c.e.d.DevopsCasestudyApplication - Started DevopsCasestudyApplication in 2.42 seconds (JVM running for 57702.882)
 2020-05-12 11:24:12.011 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-12 13:39:36.755 [INFO ] [Thread-91] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-12 13:39:36.786 [INFO ] [Thread-91] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 13:39:36.876 [INFO ] [Thread-91] c.z.h.HikariDataSource - HikariPool-15 - Shutdown initiated...
+2020-05-12 13:39:36.900 [INFO ] [Thread-91] c.z.h.HikariDataSource - HikariPool-15 - Shutdown completed.
