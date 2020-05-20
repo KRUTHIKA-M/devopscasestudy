@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>devopscasestudy</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>devopscasestudy</name>
 	<description>Demo project for Spring Boot</description>
@@ -33,9 +33,9 @@
   </snapshotRepository>
 </distributionManagement>
 <scm>
-  <connection>scm:git:git@github.com:kameswariswayampakula/devopscasestudy.git</connection>
-  <developerConnection>scm:git:git@github.com:kameswariswayampakula/devopscasestudy.git</developerConnection>
-  <url>git@github.com:kameswariswayampakula/devopscasestudy.git</url>
+  <connection>scm:git:git@github.com:KRUTHIKA-M/devopscasestudy.git</connection>
+  <developerConnection>scm:git:git@github.com:KRUTHIKA-M/devopscasestudy.git</developerConnection>
+  <url>git@github.com:KRUTHIKA-M/devopscasestudy.git</url>
   <tag>HEAD</tag>
 </scm>
 	<dependencies>
@@ -46,6 +46,15 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
@@ -90,6 +99,18 @@
     <artifactId>mockito-junit-jupiter</artifactId>
     <scope>test</scope>
 </dependency>
+<dependency>
+<groupId>info.cukes</groupId>
+<artifactId>cucumber-java</artifactId>
+<version>1.2.5</version>
+<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>info.cukes</groupId>
+<artifactId>cucumber-junit</artifactId>
+<version>1.2.5</version>
+<scope>test</scope>
+</dependency>
 	</dependencies>
 
 	<build>
@@ -97,6 +118,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
+				<configuration>
+                <finalName>devopscasestudy-docker</finalName>
+                </configuration>
 			</plugin>
 			<plugin>
   <groupId>org.apache.maven.plugins</groupId>
